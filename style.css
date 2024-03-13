@@ -1,0 +1,603 @@
+
+/* This styled for width range: 375-430 */
+
+body{
+    color: white;
+    background-color: black;
+}
+
+/* Navbar */
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 25px;
+border-radius: 5px;
+margin-left: 3px;
+font-size: 40%;
+}
+
+#Navbar{
+margin: 10px;
+
+}
+
+/* First two images */
+.beauty1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 15%;
+}
+
+/* Headings */
+.title{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+margin: 50px 0px;
+}
+
+/* first paragraph */
+#p1{
+    margin-left: 5%;
+    font-size: 12px;
+}
+
+/* photos */
+.beauty{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 15%;
+}
+
+/* Photo between */
+.differ{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 35%;
+}
+
+/* review styling */
+.review{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 35%;
+    font-size: 6px;
+}
+
+/* Reviewer's Names */
+.names{
+    margin-left: 30%;
+    color: grey;
+}
+
+/* paragraphs */
+p{
+    margin-left: 20%;
+}
+
+/* Social media icons */
+
+.icons{
+    width: 20px;
+    height: 20px;
+
+}
+
+/* Footer in general */
+
+footer{
+    color: black;
+    background-color: grey;
+    padding: 10px 15px;
+
+}
+
+/* Main <div></div> in footer */
+
+#footer{
+    display: flex;
+    gap: 20px;
+    color: black;
+    background-color: grey;
+    /* padding-left: 5px; */
+}
+
+
+/* Footer line */
+
+h6{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+}
+
+/*  */
+
+@media only screen and (min-width: 500px){
+    body{
+        color: white;
+        background-color: black;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 25px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 50%;
+    }
+    
+    #Navbar{
+    margin: 30px;
+    
+    }
+
+    .beauty1{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-left: 7%;
+    }
+
+    /* Headings */
+.title{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 20%;
+margin: 50px 0px;
+}
+
+/* first paragraph */
+#p1{
+    margin-left: 6%;
+    font-size: 15px;
+}
+
+/* photos */
+.beauty{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 7%;
+}
+
+/* Photo between */
+.differ{
+    width: 200px;
+   height: 200px;
+    border-radius: 100px;
+    margin-left: 28%;
+}
+
+
+
+#footer{
+    gap: 70px;
+    /* padding: 5px; */
+}
+
+footer{
+    padding: 25px 20px;
+}
+
+h6{
+    content: "";
+    display: block;
+    width: 480px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+}
+
+p{
+    margin-left: 30%;
+}
+
+.names{
+    margin-left: 40%;
+}
+
+.review{
+    margin-left: 40%;
+}
+
+} 
+
+
+@media only screen and (min-width: 768px){
+    body{
+        color: white;
+        background-color: black;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 25px;
+    border-radius: 5px;
+    margin-left: 50px;
+    font-size: 90%;
+    }
+    
+    #Navbar{
+    margin: 40px;
+    
+    }
+
+    .beauty1{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: 7%;
+    }
+
+
+
+/* first paragraph */
+#p1{
+    margin-left: 9%;
+    font-size: 20px;
+}
+
+/* photos */
+.beauty{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-left: 7%;
+}
+
+/* Photo between */
+.differ{
+    width: 300px;
+   height: 300px;
+    border-radius: 150px;
+    margin-left: 28%;
+}
+
+#main-review{
+    /* display: flex; */
+    gap: 8px;
+    margin-left: 0%;
+
+}
+
+#mini-review{
+display: flex;
+gap: 190px;
+}
+
+#footer{
+    gap: 160px;
+margin-left: 6%;
+}
+
+footer{
+    padding: 25px 20px;
+}
+
+h6{
+    content: "";
+    display: block;
+    width: 710px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+}
+
+
+
+.names{
+    margin-left: 40%;
+}
+
+.review{
+    margin-left: 40%;
+}
+
+
+
+} 
+
+
+
+@media only screen and (min-width: 1024px){
+    body{
+        color: white;
+        background-color: black;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 25px;
+    border-radius: 5px;
+    margin-left: 80px;
+    font-size: 100%;
+    }
+    
+    #Navbar{
+    margin: 80px;
+    
+    }
+
+    .beauty1{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: 13%;
+        /* gap: 35px; */
+    }
+
+
+
+/* first paragraph */
+#p1{
+    margin-left: 15%;
+    font-size: 25px;
+}
+
+/* photos */
+.beauty{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-left: 13%;
+}
+
+/* Photo between */
+.differ{
+    width: 300px;
+   height: 300px;
+    border-radius: 150px;
+    margin-left: 33%;
+}
+
+#main-review{
+    display: flex;
+    gap: 80px;
+
+}
+
+#mini-review{
+    display: flex;
+    gap: 80px;
+    }
+
+#footer{
+    gap: 220px;
+margin-left: 6%;
+}
+
+footer{
+    padding: 25px 20px;
+}
+
+h6{
+    content: "";
+    display: block;
+    width: 810px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    margin-left: 60px;
+}
+
+
+
+.names{
+    margin-left: 40%;
+}
+
+.review{
+    margin-left: 40%;
+}
+
+
+
+} 
+
+@media only screen and (min-width: 1280px){
+    body{
+        color: white;
+        background-color: black;
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 25px;
+border-radius: 5px;
+margin-left: 120px;
+font-size: 120%;
+}
+
+#Navbar{
+margin: 80px;
+
+}
+
+    .title{
+        font-size: 55px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20%;
+    margin: 50px 0px;
+    }
+
+    .beauty1{
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        margin-left: 13%;
+        gap: 135px;
+    }
+
+
+
+/* first paragraph */
+#p1{
+    margin-left: 14%;
+    font-size: 30px;
+}
+
+/* photos */
+.beauty{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    margin-left: 13%;
+}
+
+/* Photo between */
+.differ{
+    width: 400px;
+   height: 400px;
+    border-radius: 200px;
+    margin-left: 35%;
+}
+
+#main-review{
+    display: flex;
+    gap: 210px;
+
+}
+
+#mini-review{
+    display: flex;
+    gap: 210px;
+    }
+
+#footer{
+    gap: 350px;
+margin-left: 6%;
+}
+
+footer{
+    padding: 25px 20px;
+}
+
+h6{
+    content: "";
+    display: block;
+    width: 1100px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    margin-left: 60px;
+}
+
+
+
+.names{
+    margin-left: 40%;
+}
+
+.review{
+    margin-left: 40%;
+}
+
+} 
+
+
+@media only screen and (min-width: 1800px){
+    body{
+        color: white;
+        background-color: black;
+    }
+
+    .title{
+        font-size: 55px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20%;
+    margin: 50px 0px;
+    }
+
+    .beauty1{
+        width: 450px;
+        height: 450px;
+        border-radius: 200px;
+        margin-left: 13%;
+        gap: 135px;
+    }
+
+
+/* first paragraph */
+#p1{
+    margin-left: 15%;
+    font-size: 40px;
+}
+
+/* photos */
+.beauty{
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    margin-left: 13%;
+}
+
+/* Photo between */
+.differ{
+    width: 400px;
+   height: 400px;
+    border-radius: 200px;
+    margin-left: 35%;
+}
+
+#main-review{
+    display: flex;
+    gap: 400px;
+
+}
+
+#mini-review{
+    display: flex;
+    gap: 400px;
+    }
+
+#footer{
+    gap: 450px;
+margin-left: 14%;
+}
+
+footer{
+    padding: 25px 20px;
+}
+
+h6{
+    content: "";
+    display: block;
+    width: 1500px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    margin-left:150px;
+}
+
+.title{
+    font-size: 100px;
+}
+
+.names{
+    margin-left: 40%;
+}
+
+.review{
+    margin-left: 40%;
+}
+
+} 
+
